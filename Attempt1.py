@@ -99,6 +99,7 @@ for i in range(epochs):
 plt.plot(range(epochs), losses)
 plt.ylabel("loss/error")
 plt.xlabel('Epoch')
+plt.show()
 
 # Evaluate Model on Test Data Set (validate model on test set)
 with torch.no_grad():
